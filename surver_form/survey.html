@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey_form</title>
+    <link rel="stylesheet"type="text/css"href="style.css">
+
+</head>
+<body>
+    <h1 id="tittle">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <div class="input">
+        <label id="name-label">Name
+
+        </label>
+        <br>
+        <input type="text" placeholder="name" id="name" required>
+        </div>
+        <div class="input">
+            <label id="email-label">Email
+    
+            </label>
+            <br>
+            <input type="email" placeholder="E-mail" id="email" required>
+            </div>
+            <div class="input">
+                <label id="number-label">Age
+        
+                </label>
+                <br>
+                <input type="number" placeholder="age" id="age" required>
+                </div>
+                <div class="input">
+                    <label id="">what option best describe your current role?
+            <br>
+            
+                    </label>
+                    <select id="dropdown">
+                        <option disabled> Select current role</option>
+                        <option > Full time job</option>
+                        <option > Student</option>
+                        <option > Full time learner</option>
+                    </select>
+                    
+            
+                    </div>
+                    <div class="input">
+                        <label id="email-label">Would you recommend freeCodeCamp to a friend?
+                
+                        </label>
+                        <br>
+                        <label>
+                            <input
+                              name="user-recommend"
+                              value="Definitely"
+                              type="radio"
+                              class="input-radio"
+                              checked
+                            />Definitely</label>
+                            <label>
+                                <br>
+                                <input
+                                  name="user-recommend"
+                                  value="Maybe"
+                                  type="radio"
+                                  class="input-radio"
+                                  checked
+                                />Maybe</label>
+                                <label>
+                                    <br>
+                                    <input
+                                      name="user-recommend"
+                                      value="Not sure"
+                                      type="radio"
+                                      class="input-radio"
+                                      checked
+                                    />Not sure</label>
+                        
+                        </div>
+                        <div class="input">
+                            <label id="name-label">Any comment or suggestion?
+                    
+                            </label>
+                            <br>
+                            <textarea>
+
+                            </textarea>
+
+                            </div>
+                            <div class="btn">
+                                <button id="submit" >Submit</button>
+
+                            </div>
+
+
+    </form>
+    
+</body>
+</html>
